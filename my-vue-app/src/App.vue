@@ -2,6 +2,7 @@
   export default {
     data (){
       return {
+        text : "Hello Word"
 
       }
     }
@@ -10,6 +11,7 @@
 
 <template>
   <div>
+    <h1>{{ text }}</h1>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
